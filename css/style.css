@@ -27,6 +27,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 100vw;
 }
 
@@ -107,6 +108,15 @@ body{
 
 .shopping_cart{
     margin-right: 10px;
+}
+
+footer{
+    margin-top: 20px;
+}
+
+footer a{
+    color: var(--dark-cyan);
+    text-decoration: none;
 }
 
 @media screen and (max-width: 375px){
